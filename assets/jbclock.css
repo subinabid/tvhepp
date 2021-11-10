@@ -3,9 +3,7 @@
     margin:0;
 }
 
-body {
-    background-image:url(maingbg.png)
-}
+body {background-image:url(maingbg.png)}
 
 .wrapper {
 	width:840px;
@@ -38,21 +36,10 @@ h4 {
     margin-top:50px;
 }
 
-.clock_days {
-    float:left;
-    margin-right:30px;
-}
-.clock_hours {
-    float:left;
-    margin-right:30px;
-}
-.clock_minutes {
-    float:left;
-    margin-right:30px;
-}
-.clock_seconds {
-    float:left;
-}
+.clock_days {float:left;margin-right:30px;}
+.clock_hours {float:left;margin-right:30px;}
+.clock_minutes {float:left;margin-right:30px;}
+.clock_seconds {float:left;}
 
 .bgLayer {
     background-image:url(bg.png);
@@ -141,14 +128,8 @@ h4 {
 	text-align:center;
 }
 
-.divider a {
-	color:#39F;
-	text-decoration:none;
-}
-
-.divider a:hover {
-	color:#FFF;
-}
+.divider a {color:#39F; text-decoration:none;}
+.divider a:hover { color:#FFF;}
 
 div.quote {
 	width: 840px;
@@ -157,10 +138,13 @@ div.quote {
 	color: rgb(111, 111, 111);
 }
 
-div.quote a {
-	color: #08c;
-}
+div.quote a {color: #08c;}
+date { color: #efefef;}
 
-date {
-	color: #efefef;
+.footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: #efefef;
 }
